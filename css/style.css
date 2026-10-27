@@ -117,7 +117,7 @@ a:hover {
 
 .brand-logo {
   display: block;
-  width: 11rem;
+  width: 16rem;
   height: auto;
   flex-shrink: 0;
 }
@@ -325,6 +325,11 @@ a:hover {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 0.5rem;
+
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 /*
@@ -340,6 +345,10 @@ a:hover {
   border-radius: 0.25rem;
   object-fit: cover;
   object-position: top;
+
+  transition:
+    filter 0.25s ease,
+    transform 0.25s ease;
 }
 
 .project-content {
@@ -369,8 +378,28 @@ a:hover {
   text-decoration: none;
 }
 
+.more-projects {
+  margin-top: 1.5rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+
 .project-link:hover {
   color: var(--cyan);
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .project:hover {
+    transform: translateY(-0.4rem);
+    border-color: var(--azure);
+    box-shadow: 0 1rem 2.5rem rgba(47, 91, 255, 0.14);
+  }
+
+  .project:hover img {
+    filter: brightness(1.05);
+  }
 }
 
 
