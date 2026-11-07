@@ -172,7 +172,7 @@ a:hover {
 }
 
 
-/* Navigation --------------------------------------------------------------- */
+/* Navigation -------------------------------------------------------------- */
 
 .nav-list {
   display: flex;
@@ -250,11 +250,9 @@ a:hover {
 
   overflow: hidden;
 
-  padding-block:
-    clamp(4.5rem, 10vw, 8rem);
+  padding-block: clamp(4.5rem, 10vw, 8rem);
 
-  border-bottom:
-    1px solid rgba(92, 208, 255, 0.1);
+  border-bottom: 1px solid rgba(92, 208, 255, 0.1);
 
   background:
     radial-gradient(
@@ -274,9 +272,6 @@ a:hover {
       #071126 100%
     );
 }
-
-
-/* Background grid */
 
 .hero::before {
   content: "";
@@ -311,9 +306,6 @@ a:hover {
     );
 }
 
-
-/* Background glow */
-
 .hero::after {
   content: "";
 
@@ -325,27 +317,20 @@ a:hover {
   z-index: -1;
 
   width: 38rem;
-
   aspect-ratio: 1;
 
   border-radius: 50%;
 
-  background:
-    rgba(47, 91, 255, 0.12);
+  background: rgba(47, 91, 255, 0.12);
 
   filter: blur(6rem);
 }
 
-
-/* Hero layout */
-
 .hero-grid {
   display: grid;
-
   align-items: center;
 
-  gap:
-    clamp(3rem, 7vw, 6rem);
+  gap: clamp(3rem, 7vw, 6rem);
 }
 
 .hero-content {
@@ -353,9 +338,6 @@ a:hover {
 
   z-index: 2;
 }
-
-
-/* Hero eyebrow */
 
 .eyebrow {
   margin-bottom: 1rem;
@@ -366,25 +348,19 @@ a:hover {
   font-weight: 800;
 
   letter-spacing: 0.16em;
-
   line-height: 1.4;
 
   text-transform: uppercase;
 }
 
-
-/* Hero heading */
-
 .hero h1 {
   max-width: 15ch;
 
-  font-size:
-    clamp(2.8rem, 9vw, 5.75rem);
+  font-size: clamp(2.8rem, 9vw, 5.75rem);
 
   font-weight: 850;
 
   letter-spacing: -0.055em;
-
   line-height: 0.98;
 
   text-wrap: balance;
@@ -398,12 +374,8 @@ a:hover {
   color: var(--cyan);
 
   text-shadow:
-    0 0 2.2rem
-    rgba(92, 208, 255, 0.16);
+    0 0 2.2rem rgba(92, 208, 255, 0.16);
 }
-
-
-/* Hero introduction */
 
 .hero-lead {
   max-width: 48ch;
@@ -412,12 +384,8 @@ a:hover {
 
   color: var(--muted);
 
-  font-size:
-    clamp(1.075rem, 2vw, 1.3rem);
+  font-size: clamp(1.075rem, 2vw, 1.3rem);
 }
-
-
-/* Hero actions */
 
 .hero-actions {
   display: flex;
@@ -429,9 +397,6 @@ a:hover {
   margin-top: 2.25rem;
 }
 
-
-/* Hero visual */
-
 .hero-visual {
   position: relative;
 
@@ -441,8 +406,7 @@ a:hover {
 
   place-items: center;
 
-  min-height:
-    clamp(19rem, 55vw, 34rem);
+  min-height: clamp(19rem, 55vw, 34rem);
 }
 
 .hero-mountain {
@@ -453,7 +417,6 @@ a:hover {
   display: block;
 
   width: min(100%, 33rem);
-
   height: auto;
 
   object-fit: contain;
@@ -503,11 +466,9 @@ a:hover {
 
   min-height: 3.1rem;
 
-  padding:
-    0.8rem 1.55rem;
+  padding: 0.8rem 1.55rem;
 
-  border:
-    1px solid var(--blue);
+  border: 1px solid var(--blue);
 
   border-radius: 0.4rem;
 
@@ -519,13 +480,11 @@ a:hover {
     );
 
   box-shadow:
-    0 0.8rem 2rem
-    rgba(47, 91, 255, 0.2);
+    0 0.8rem 2rem rgba(47, 91, 255, 0.2);
 
   color: #ffffff;
 
   font: inherit;
-
   font-weight: 750;
 
   text-decoration: none;
@@ -556,9 +515,6 @@ a:hover {
   color: var(--bg);
 }
 
-
-/* Text links */
-
 .text-link {
   position: relative;
 
@@ -582,15 +538,13 @@ a:hover {
 /* Standard sections ------------------------------------------------------- */
 
 .section {
-  padding-block:
-    clamp(3.5rem, 9vw, 6rem);
+  padding-block: clamp(3.5rem, 9vw, 6rem);
 
   scroll-margin-top: 1rem;
 }
 
 .section h2 {
-  font-size:
-    clamp(1.75rem, 3.6vw, 2.5rem);
+  font-size: clamp(1.75rem, 3.6vw, 2.5rem);
 
   font-weight: 800;
 }
@@ -609,9 +563,6 @@ a:hover {
 
   overflow: hidden;
 }
-
-
-/* Subtle section glow */
 
 .services-section::before {
   content: "";
@@ -635,9 +586,6 @@ a:hover {
   pointer-events: none;
 }
 
-
-/* Services heading */
-
 .section-heading {
   position: relative;
 
@@ -653,7 +601,6 @@ a:hover {
   font-weight: 800;
 
   letter-spacing: 0.16em;
-
   line-height: 1.4;
 
   text-transform: uppercase;
@@ -668,11 +615,9 @@ a:hover {
 .section-heading-grid h2 {
   max-width: 13ch;
 
-  font-size:
-    clamp(2.25rem, 5vw, 4rem);
+  font-size: clamp(2.25rem, 5vw, 4rem);
 
   letter-spacing: -0.045em;
-
   line-height: 1;
 }
 
@@ -692,9 +637,6 @@ a:hover {
   font-size: 1.05rem;
 }
 
-
-/* Services grid */
-
 .service-grid {
   position: relative;
 
@@ -704,29 +646,22 @@ a:hover {
 
   gap: 1rem;
 
-  margin-top:
-    clamp(2.5rem, 6vw, 4rem);
+  margin-top: clamp(2.5rem, 6vw, 4rem);
 }
-
-
-/* Service cards */
 
 .service-card {
   position: relative;
 
   display: flex;
-
   flex-direction: column;
 
-  min-height: 19rem;
+  min-height: 15rem;
 
-  padding:
-    clamp(1.5rem, 4vw, 2.25rem);
+  padding: clamp(1.5rem, 4vw, 2.25rem);
 
   overflow: hidden;
 
-  border:
-    1px solid var(--line);
+  border: 1px solid var(--line);
 
   border-radius: 0.75rem;
 
@@ -743,9 +678,6 @@ a:hover {
     box-shadow 0.25s ease;
 }
 
-
-/* Decorative glow within each card */
-
 .service-card::before {
   content: "";
 
@@ -755,7 +687,6 @@ a:hover {
   right: -5rem;
 
   width: 12rem;
-
   aspect-ratio: 1;
 
   border-radius: 50%;
@@ -768,41 +699,15 @@ a:hover {
   pointer-events: none;
 }
 
-
-/* Service number */
-
-.service-number {
-  position: relative;
-
-  display: block;
-
-  margin-bottom: auto;
-
-  color: var(--cyan);
-
-  font-size: 0.8rem;
-
-  font-weight: 800;
-
-  letter-spacing: 0.12em;
-}
-
-
-/* Service headings */
-
 .service-card h3 {
   position: relative;
 
-  margin-top: 3rem;
+  margin-top: 0;
 
-  font-size:
-    clamp(1.35rem, 3vw, 1.7rem);
+  font-size: clamp(1.35rem, 3vw, 1.7rem);
 
   font-weight: 750;
 }
-
-
-/* Service description */
 
 .service-card p {
   position: relative;
@@ -826,13 +731,11 @@ a:hover {
 }
 
 .project {
-  padding:
-    1rem 1rem 1.25rem;
+  padding: 1rem 1rem 1.25rem;
 
   overflow: hidden;
 
-  border:
-    1px solid var(--line);
+  border: 1px solid var(--line);
 
   border-radius: 0.5rem;
 
@@ -856,7 +759,6 @@ a:hover {
   border-radius: 0.25rem;
 
   object-fit: cover;
-
   object-position: top;
 
   transition:
@@ -935,11 +837,9 @@ a:hover {
 /* Contact ----------------------------------------------------------------- */
 
 .section-dark {
-  border-top:
-    1px solid var(--line);
+  border-top: 1px solid var(--line);
 
-  background:
-    var(--surface);
+  background: var(--surface);
 }
 
 .contact-grid {
@@ -968,7 +868,6 @@ a:hover {
   gap: 0.6rem;
 
   margin: 0;
-
   padding: 0;
 
   list-style: none;
@@ -988,8 +887,7 @@ a:hover {
 .site-footer {
   padding-block: 1.75rem;
 
-  border-top:
-    1px solid var(--line);
+  border-top: 1px solid var(--line);
 
   color: var(--muted);
 
@@ -1000,52 +898,44 @@ a:hover {
 /* Tablet and larger ------------------------------------------------------- */
 
 @media (min-width: 48rem) {
-
   .section-heading-grid {
     grid-template-columns:
       minmax(0, 1.1fr)
       minmax(0, 0.9fr);
   }
 
-
   .service-grid {
     grid-template-columns:
       repeat(2, minmax(0, 1fr));
   }
-
 
   .project-list {
     grid-template-columns:
       repeat(2, minmax(0, 1fr));
   }
 
-
   .about-grid {
     grid-template-columns:
       minmax(0, 1fr)
       minmax(0, 2fr);
   }
-
 }
 
 
 /* Desktop hero ------------------------------------------------------------ */
 
 @media (min-width: 52rem) {
-
   .hero-grid {
     grid-template-columns:
       minmax(0, 1.08fr)
       minmax(20rem, 0.92fr);
   }
-
 }
 
 
 /* Desktop contact --------------------------------------------------------- */
 
 @media (min-width: 56rem) {
-
   .contact-grid {
     grid-template-columns:
       minmax(0, 1fr)
@@ -1054,138 +944,109 @@ a:hover {
     gap: 4rem;
   }
 
-
   .contact-details {
     padding-top: 0.5rem;
   }
-
 }
 
 
 /* Tablet and smaller ------------------------------------------------------ */
 
 @media (max-width: 51.99rem) {
-
   .site-header {
     padding-block: 0.9rem;
   }
-
 
   .header-inner {
     align-items: flex-start;
   }
 
-
   .brand-logo {
     width: 5.5rem;
   }
-
 
   .brand-name {
     font-size: 0.95rem;
   }
 
-
   .nav-list {
     gap: 0.35rem 1rem;
   }
-
 
   .hero {
     min-height: auto;
   }
 
-
   .hero-grid {
     text-align: left;
   }
-
 
   .hero-content {
     max-width: 43rem;
   }
 
-
   .hero-visual {
     min-height: 17rem;
   }
 
-
   .hero-mountain {
-    width:
-      min(82vw, 27rem);
+    width: min(82vw, 27rem);
   }
-
 }
 
 
 /* Mobile ------------------------------------------------------------------ */
 
 @media (max-width: 37rem) {
-
   .header-inner {
     display: grid;
 
     grid-template-columns: 1fr;
   }
 
-
   .wordmark {
     width: fit-content;
   }
-
 
   .nav-list {
     justify-content: flex-start;
   }
 
-
   .hero {
     padding-top: 3.75rem;
   }
 
-
   .hero h1 {
-    font-size:
-      clamp(2.55rem, 14vw, 4rem);
+    font-size: clamp(2.55rem, 14vw, 4rem);
   }
-
 
   .hero-actions {
     align-items: stretch;
   }
 
-
   .hero-actions .button {
     width: 100%;
   }
-
 
   .hero-visual {
     min-height: 14rem;
   }
 
-
   .service-card {
-    min-height: 17rem;
+    min-height: auto;
   }
-
 }
 
 
 /* Hover interactions ------------------------------------------------------ */
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
-
   .button:hover {
-    transform:
-      translateY(-0.15rem);
+    transform: translateY(-0.15rem);
   }
 
-
   .service-card:hover {
-    transform:
-      translateY(-0.35rem);
+    transform: translateY(-0.35rem);
 
     border-color:
       rgba(92, 208, 255, 0.65);
@@ -1195,54 +1056,40 @@ a:hover {
       rgba(47, 91, 255, 0.12);
   }
 
-
   .project:hover {
-    transform:
-      translateY(-0.4rem);
+    transform: translateY(-0.4rem);
 
-    border-color:
-      var(--azure);
+    border-color: var(--azure);
 
     box-shadow:
       0 1rem 2.5rem
       rgba(47, 91, 255, 0.14);
   }
 
-
   .project:hover img {
-    filter:
-      brightness(1.05);
+    filter: brightness(1.05);
 
-    transform:
-      scale(1.015);
+    transform: scale(1.015);
   }
-
 }
 
 
-/* Reduced Motion ---------------------------------------------------------- */
+/* Reduced motion ---------------------------------------------------------- */
 
 @media (prefers-reduced-motion: reduce) {
-
   html {
     scroll-behavior: auto;
   }
 
-
   *,
   *::before,
   *::after {
-    scroll-behavior:
-      auto !important;
+    scroll-behavior: auto !important;
 
-    animation-duration:
-      0.01ms !important;
+    animation-duration: 0.01ms !important;
 
-    animation-iteration-count:
-      1 !important;
+    animation-iteration-count: 1 !important;
 
-    transition-duration:
-      0.01ms !important;
+    transition-duration: 0.01ms !important;
   }
-
 }
